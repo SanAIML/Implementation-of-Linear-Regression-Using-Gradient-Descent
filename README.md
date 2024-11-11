@@ -52,7 +52,6 @@ pre=scaler.inverse_transform(prediction)
 print(f"Predicted value : {pre}")
 
 ## Output:
-![linear regression using gradient descent](sam.png)
           0               1                2           3          4
 0  R&D Spend  Administration  Marketing Spend       State     Profit
 1   165349.2        136897.8         471784.1    New York  192261.83
