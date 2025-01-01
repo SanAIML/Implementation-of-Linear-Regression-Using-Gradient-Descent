@@ -22,6 +22,7 @@ Developed by: Sanchita Sandeep
 RegisterNumber:  24900172
 */
 ```
+```
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -50,7 +51,7 @@ prediction=np.dot(np.append(1,new_Scaled),theta)
 prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(f"Predicted value : {pre}")
-
+```
 ## Output:
 0  R&D Spend  Administration  Marketing Spend       State     Profit
 1   165349.2        136897.8         471784.1    New York  192261.83
