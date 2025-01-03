@@ -53,6 +53,7 @@ pre=scaler.inverse_transform(prediction)
 print(f"Predicted value : {pre}")
 ```
 ## Output:
+~~~
 0  R&D Spend  Administration  Marketing Spend       State     Profit
 1   165349.2        136897.8         471784.1    New York  192261.83
 2   162597.7       151377.59        443898.53  California  191792.06
@@ -60,6 +61,7 @@ print(f"Predicted value : {pre}")
 4  144372.41       118671.85        383199.62    New York  182901.99
 
 Predicted value : [[257556.43387625]]
+~~~
 
 
 ## Result:
